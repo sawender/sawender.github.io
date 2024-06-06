@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific styles for the individual image */
+main img {
+    width: 300px;  /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+/* Specific styles for images in the row */
+.image-row img {
+    width: 200px;  /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+}
